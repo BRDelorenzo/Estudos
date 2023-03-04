@@ -21,7 +21,7 @@ function SendQuestion() {
     body: JSON.stringify({
         model: "text-davinci-003",
         prompt: sQuestion,
-        max_tokens: 10000,
+        max_tokens: 256,
         temperature: 0.9,
     }),
 })
